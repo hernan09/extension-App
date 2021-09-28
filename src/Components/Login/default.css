@@ -1,0 +1,37 @@
+
+  .mainlogin__container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imgnlogo {
+    width: 190px;
+    height: 150px;
+  }
+  
+  .mainlogin__container .form__sendata {
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    min-height: 250px;
+    justify-content: space-around;
+  }
+  
+  input {
+    outline: none;
+    border-radius: 5px;
+    height: 40px;
+    border: 1px solid gray;
+    padding: 10px;
+    color: gray;
+  }
+  
+  .form__sendata label {
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
