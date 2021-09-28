@@ -2,18 +2,21 @@
   "short_name": "React App",
   "name": "Healty check",
   "icons": {
-    "128": "favicon.ico"
+    "128": "128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
   },
   "csp": "script-src 'self' 'unsafe-inline'; object-src 'self'",
+  "browser_action": {
+    "default_icon": "favicon.png"
+  },
   "permissions": ["tabs", "notifications", "storage", "activeTab", "scripting"],
-  "manifest_version": 2,
+  "manifest_version": 3,
   "version": "1.0",
   "action": {
     "default_title": "health check SEO",
     "default_popup": "index.html"
   },
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "start_url": "/"
 }
