@@ -43,7 +43,7 @@ const LoginPage = () => {
           type="password"
         />
         <br />
-        <button type="submit" onClick={handleLogin} className="btn btn-primary">
+        <button type="button" onClick={handleLogin} className="btn btn-primary">
           Login
         </button>
       </form>
